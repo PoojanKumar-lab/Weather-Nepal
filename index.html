@@ -3,29 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <title>Weather Nepal</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="weather-container">
-        <h1>Weather App</h1>
-        <div class="search">
-            <input type="text" placeholder="Enter city name" id="city-input">
+    <div class="weather-app">
+        <header>
+            <h1>⛰️ Weather Nepal</h1>
+            <div class="language-toggle">
+                <button id="lang-en">English</button>
+                <button id="lang-ne">नेपाली</button>
+            </div>
+        </header>
+
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Search city...">
+            <div class="autocomplete" id="autocomplete"></div>
             <button id="search-btn">Search</button>
+            <button id="location-btn">Use My Location</button>
         </div>
-        <div class="weather-info">
-            <h2 id="city-name">City Name</h2>
-            <div class="main-info">
-                <img id="weather-icon" src="" alt="Weather icon">
-                <p id="temperature">--°C</p>
+
+        <div class="alert-container" id="alerts"></div>
+
+        <main class="weather-display">
+            <div class="current-weather">
+                <h2 id="city-name">Kathmandu</h2>
+                <div class="time-date">
+                    <span id="current-time">12:45 PM</span>
+                    <span id="current-date">2023-06-15</span>
+                </div>
+                
+                <div class="weather-main">
+                    <div class="weather-icon">
+                        <img id="weather-icon" src="assets/icons/sunny.svg" alt="Weather icon">
+                    </div>
+                    <div class="temp-container">
+                        <span id="temperature">25</span>
+                        <span class="temp-unit">°C</span>
+                    </div>
+                </div>
+
+                <p id="weather-description">Partly Cloudy</p>
             </div>
-            <p id="weather-description">Weather description</p>
-            <div class="details">
-                <p>Humidity: <span id="humidity">--%</span></p>
-                <p>Wind: <span id="wind">-- km/h</span></p>
+
+            <div class="weather-details">
+                <div class="detail">
+                    <span class="label">Humidity</span>
+                    <span id="humidity" class="value">65%</span>
+                </div>
+                <div class="detail">
+                    <span class="label">Wind</span>
+                    <span id="wind" class="value">12 km/h</span>
+                </div>
+                <div class="detail">
+                    <span class="label">Pressure</span>
+                    <span id="pressure" class="value">1012 hPa</span>
+                </div>
+                <div class="detail">
+                    <span class="label">Visibility</span>
+                    <span id="visibility" class="value">10 km</span>
+                </div>
+            </div>
+        </main>
+
+        <div class="forecast-container">
+            <h3>3-Day Forecast</h3>
+            <div class="forecast" id="forecast">
+                <!-- Forecast items will be added by JavaScript -->
             </div>
         </div>
+
+        <footer>
+            <p>Data provided by OpenWeatherMap</p>
+            <p>🇳🇵 Proudly made for Nepal</p>
+        </footer>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
