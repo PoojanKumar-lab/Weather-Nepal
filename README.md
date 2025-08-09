@@ -17,7 +17,7 @@ A clean, functional weather application that displays current weather conditions
 
 ## 🚀 Try It Live
 
-[![On Vercel !](https://www.netlify.com/img/deploy/button.svg)](https://your-app-url.netlify.app)  
+[![On Vercel !]([https://www.netlify.com/img/deploy/button.svg)](https://your-app-url.netlify.app](https://fantastic-kitsune-356d61.netlify.app/))  
 *(Replace with your actual deployment link)*
 
 ## 🛠️ Technologies Used
@@ -33,3 +33,4 @@ A clean, functional weather application that displays current weather conditions
 ```bash
 
 git clone https://github.com/your-username/weather-app.git
+
