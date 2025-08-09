@@ -31,5 +31,6 @@ A weather application focused on Nepal with real-time forecasts, Nepali localiza
 
 2. **Configure**  
    ```bash
-   git clone https://github.com/YOUR-USERNAME/Weather-Nepal.git
+   git clone https://github.com/PoojanKumar-lab/Weather-Nepal.git
    cd Weather-Nepal
+
