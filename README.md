@@ -1,39 +1,35 @@
-# 🌦️ Weather App
+# 🌦️ Weather Nepal 
 
-A clean, functional weather application that displays current weather conditions for any city worldwide. My first GitHub project built with HTML, CSS, and JavaScript.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR-DEPLOY-ID/deploy-status)](https://fantastic-kitsune-356d61.netlify.app)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-![Weather App Screenshot](./assets/screenshot.png) *(add screenshot later)*
+A weather application focused on Nepal with real-time forecasts, Nepali localization, and mountain alerts.
+
+🔗 **Live Demo**: [https://fantastic-kitsune-356d61.netlify.app](https://fantastic-kitsune-356d61.netlify.app)
+
+![Weather Nepal Screenshot](./assets/screenshot.png)
 
 ## ✨ Features
 
-- **Real-time weather data** using the OpenWeatherMap API
-- **Search by city name** with autocomplete suggestions
-- **Detailed weather display**:
-  - Current temperature (°C/°F toggle)
-  - Weather condition (sunny, rainy, etc.) with icons
-  - Humidity, wind speed, and atmospheric pressure
-- **Responsive design** works on mobile and desktop
-- **Error handling** for invalid locations
+- **Nepal-specific data**  
+  - Autocomplete for 30+ Nepali cities  
+  - Monsoon/himalayan weather alerts  
+  - Local time (UTC+5:45) display  
 
-## 🚀 Try It Live
+- **Multi-language**  
+  - English/Nepali toggle  
 
-[![Deploy on Netlify](https://www.netlify.com/img/deploy/button.svg)]([https://your-app-url.netlify.app](https://fantastic-kitsune-356d61.netlify.app/))  
+- **Advanced UI**  
+  - Dynamic backgrounds (changes with weather)  
+  - 3-day forecast  
+  - Responsive design  
 
+## 🛠️ Setup
 
-## 🛠️ Technologies Used
+1. **Get API Key**  
+   - Register at [OpenWeatherMap](https://openweathermap.org/api)  
 
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **API**: [OpenWeatherMap](https://openweathermap.org/api)
-- **Hosting**: GitHub Pages / Netlify
-- **Version Control**: Git & GitHub
-
-## 📦 Installation
-
-1. Clone the repository:
-```bash
-
-git clone https://github.com/PoojanKumar-lab/Weather-Nepal.git
-
-
-
-
+2. **Configure**  
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/Weather-Nepal.git
+   cd Weather-Nepal
