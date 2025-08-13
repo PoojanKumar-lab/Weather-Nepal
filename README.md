@@ -1,6 +1,6 @@
 # 🌦️ Weather Nepal 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR-DEPLOY-ID/deploy-status)](https://fantastic-kitsune-356d61.netlify.app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b8d0c87f-7aa5-4045-aa58-7719c4973fdd/deploy-status)](https://app.netlify.com/projects/fantastic-kitsune-356d61/deploys)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 A weather application focused on Nepal with real-time forecasts, Nepali localization, and mountain alerts.
@@ -33,4 +33,5 @@ A weather application focused on Nepal with real-time forecasts, Nepali localiza
    ```bash
    git clone https://github.com/PoojanKumar-lab/Weather-Nepal.git
    cd Weather-Nepal
+
 
